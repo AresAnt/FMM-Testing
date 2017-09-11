@@ -1,0 +1,48 @@
+{
+  "resourceType": "ProcedureRequest",
+  "extension": [
+    {
+      "extension": [
+        {
+          "url": "code",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "display": "example genetic order code"
+              }
+            ]
+          }
+        },
+        {
+          "url": "geneticsObservation",
+          "valueReference": {
+            "reference": "Observation/f001"
+          }
+        },
+        {
+          "url": "specimen",
+          "valueReference": {
+            "reference": "Specimen/101"
+          }
+        },
+        {
+          "url": "status",
+          "valueCode": "unknown"
+        }
+      ],
+      "url": "http://hl7.org/fhir/StructureDefinition/procedurerequest-geneticsItem"
+    }
+  ],
+  "status": "draft",
+  "intent": "order",
+  "code": {
+    "coding": [
+      {
+        "display": "Test Object for Genomics Profiles"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/example"
+  }
+}

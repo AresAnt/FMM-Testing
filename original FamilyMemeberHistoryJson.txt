@@ -1,0 +1,70 @@
+{
+  "resourceType": "FamilyMemberHistory",
+  "extension": [
+    {
+      "extension": [
+        {
+          "url": "type",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/v3/RoleCode",
+                "code": "NFTH",
+                "display": "natural father"
+              }
+            ]
+          }
+        },
+        {
+          "url": "reference",
+          "valueReference": {
+            "reference": "FamilyMemberHistory/f201"
+          }
+        }
+      ],
+      "url": "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"
+    },
+    {
+      "extension": [
+        {
+          "url": "type",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/v3/RoleCode",
+                "code": "NSIS",
+                "display": "natural sister"
+              }
+            ]
+          }
+        },
+        {
+          "url": "reference",
+          "valueReference": {
+            "reference": "FamilyMemberHistory/f201"
+          }
+        }
+      ],
+      "url": "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-sibling"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-observation",
+      "valueReference": {
+        "reference": "Observation/example-genetics-1"
+      }
+    }
+  ],
+  "status": "partial",
+  "patient": {
+    "reference": "Patient/example"
+  },
+  "relationship": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v3/RoleCode",
+        "code": "NSIS",
+        "display": "natural sister"
+      }
+    ]
+  }
+}

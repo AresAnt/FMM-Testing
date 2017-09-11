@@ -1,0 +1,79 @@
+{
+  "resourceType": "FamilyMemberHistory",
+  "id": "1cdc094092644586b49f9a5ca8c58bb0",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2017-09-11T00:03:51.768-04:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>status</b>: PARTIAL      \n      </p><p><b>patient</b>:         \n        <a href=\"Patient/example\">Patient/example</a></p><p><b>relationship</b>: natural sister         \n        <span style=\"background: LightGoldenRodYellow\">(Details : {http://hl7.org/fhir/v3/RoleCode code 'NSIS' = 'natural sister', given as 'natural sister'})</span></p></div>"
+  },
+  "extension": [
+    {
+      "extension": [
+        {
+          "url": "type",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/v3/RoleCode",
+                "code": "NFTH",
+                "display": "natural father"
+              }
+            ]
+          }
+        },
+        {
+          "url": "reference",
+          "valueReference": {
+            "reference": "FamilyMemberHistory/f201"
+          }
+        }
+      ],
+      "url": "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent"
+    },
+    {
+      "extension": [
+        {
+          "url": "type",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/v3/RoleCode",
+                "code": "NSIS",
+                "display": "natural sister"
+              }
+            ]
+          }
+        },
+        {
+          "url": "reference",
+          "valueReference": {
+            "reference": "FamilyMemberHistory/f201"
+          }
+        }
+      ],
+      "url": "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-sibling"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-observation",
+      "valueReference": {
+        "reference": "Observation/example-genetics-1"
+      }
+    }
+  ],
+  "status": "partial",
+  "patient": {
+    "reference": "Patient/example"
+  },
+  "relationship": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v3/RoleCode",
+        "code": "NSIS",
+        "display": "natural sister"
+      }
+    ]
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "resourceType": "DiagnosticReport",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/DiagnosticReport-geneticsAssessedCondition",
+      "valueReference": {
+        "reference": "Condition/c1"
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/DiagnosticReport-geneticsFamilyMemberHistory",
+      "valueReference": {
+        "reference": "FamilyMemberHistory/f1-genetics"
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "type",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.ncbi.nlm.nih.gov/gtr/",
+                "code": "GTR000000000.0"
+              }
+            ],
+            "text": "Next Generation Sequencing of exons 2 and 3 of HLA Class I genes"
+          }
+        },
+        {
+          "url": "interpretation",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.ebi.ac.uk/ipd/imgt/hla/",
+                "code": "3.23"
+              }
+            ],
+            "text": "MGT/HLA 3.23"
+          }
+        }
+      ],
+      "url": "http://hl7.org/fhir/StructureDefinition/DiagnosticReport-geneticsAnalysis"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/hla-genotyping-results-allele-database",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.ebi.ac.uk/ipd/imgt/hla/",
+            "code": "4.23"
+          }
+        ]
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "url",
+          "valueUri": "https://gl.nmdp.org/imgt-hla/3.23.0/multilocus-unphased-genotype/i"
+        },
+        {
+          "url": "text",
+          "valueString": "HLA-A*01:01:01:01+HLA-A*01:02^HLA-B*15:01:01:01+HLA-B*57:01:01^HLA-C*01:02:01+HLA-C*03:04:01:01"
+        }
+      ],
+      "url": "http://hl7.org/fhir/StructureDefinition/hla-genotyping-results-glstring"
+    },
+    {
+      
+      "extension": [
+        {
+          "url": "locus",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.ebi.ac.uk/ipd/imgt/hla/",
+                "code": "213.23"
+              }
+            ]
+          }
+        },
+        {
+          "url": "type",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "display": "test hla haploid type"
+              }
+            ]
+          }
+        },
+        {
+          "url": "method",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "display": "test hla haploid method"
+              }
+            ]
+          }
+        }
+      ],
+      "url": "http://hl7.org/fhir/StructureDefinition/hla-genotyping-results-haploid"
+    },
+    {
+      "url": "hla-genotyping-results-method",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "display": "Test results method value"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "unknown",
+  "code": {
+    "coding": [
+      {
+        "display": "Test Object for Genomics and hla genotyping results Profiles",
+        "system": "http://hl7.org/fhir/dotnet-api-operation-outcome",
+                        "code": "6005"
+      }
+    ]
+  }
+}
+{
+  "resourceType": "DiagnosticReport",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/DiagnosticReport-geneticsAssessedCondition",
+      "valueReference": {
+        "reference": "Condition/c1"
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/DiagnosticReport-geneticsFamilyMemberHistory",
+      "valueReference": {
+        "reference": "FamilyMemberHistory/f1-genetics"
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "type",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.ncbi.nlm.nih.gov/gtr/",
+                "code": "GTR000000000.0"
+              }
+            ],
+            "text": "Next Generation Sequencing of exons 2 and 3 of HLA Class I genes"
+          }
+        },
+        {
+          "url": "interpretation",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.ebi.ac.uk/ipd/imgt/hla/",
+                "code": "3.23"
+              }
+            ],
+            "text": "MGT/HLA 3.23"
+          }
+        }
+      ],
+      "url": "http://hl7.org/fhir/StructureDefinition/DiagnosticReport-geneticsAnalysis"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/hla-genotyping-results-allele-database",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://www.ebi.ac.uk/ipd/imgt/hla/",
+            "code": "4.23"
+          }
+        ]
+      }
+    },
+    {
+      "extension": [
+        {
+          "url": "url",
+          "valueUri": "https://gl.nmdp.org/imgt-hla/3.23.0/multilocus-unphased-genotype/i"
+        },
+        {
+          "url": "text",
+          "valueString": "HLA-A*01:01:01:01+HLA-A*01:02^HLA-B*15:01:01:01+HLA-B*57:01:01^HLA-C*01:02:01+HLA-C*03:04:01:01"
+        }
+      ],
+      "url": "http://hl7.org/fhir/StructureDefinition/hla-genotyping-results-glstring"
+    },
+    {
+      
+      "extension": [
+        {
+          "url": "locus",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://www.ebi.ac.uk/ipd/imgt/hla/",
+                "code": "213.23"
+              }
+            ]
+          }
+        },
+        {
+          "url": "type",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "display": "test hla haploid type"
+              }
+            ]
+          }
+        },
+        {
+          "url": "method",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "display": "test hla haploid method"
+              }
+            ]
+          }
+        }
+      ],
+      "url": "http://hl7.org/fhir/StructureDefinition/hla-genotyping-results-haploid"
+    },
+    {
+      "url": "hla-genotyping-results-method",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "display": "Test results method value"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "unknown",
+  "code": {
+    "coding": [
+      {
+        "display": "Test Object for Genomics and hla genotyping results Profiles",
+        "system": "http://hl7.org/fhir/dotnet-api-operation-outcome",
+                        "code": "6005"
+      }
+    ]
+  }
+}
