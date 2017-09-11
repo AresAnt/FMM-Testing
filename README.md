@@ -2,7 +2,7 @@
 
 This is a simple demo of FMM-Testing.
 
-Under /ScreenShot are pics of how the program run
+Under /ScreenShot are pics of how the process of running this program
 
 This demo is related to three fhir servers: hapi(https://fhirtest.uhn.ca/), wild (http://wildfhir.aegis.net/fhir3-0-1-gui/index.jsf) and vonk(http://vonk.furore.com/);
 
