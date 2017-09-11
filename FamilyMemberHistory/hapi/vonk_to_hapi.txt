@@ -1,0 +1,75 @@
+{
+  "resourceType": "FamilyMemberHistory",
+  "id": "223486",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2017-09-11T00:03:44.987-04:00"
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-parent",
+      "extension": [
+        {
+          "url": "type",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/v3/RoleCode",
+                "code": "NFTH",
+                "display": "natural father"
+              }
+            ]
+          }
+        },
+        {
+          "url": "reference",
+          "valueReference": {
+            "reference": "FamilyMemberHistory/f201"
+          }
+        }
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-sibling",
+      "extension": [
+        {
+          "url": "type",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/v3/RoleCode",
+                "code": "NSIS",
+                "display": "natural sister"
+              }
+            ]
+          }
+        },
+        {
+          "url": "reference",
+          "valueReference": {
+            "reference": "FamilyMemberHistory/f201"
+          }
+        }
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/family-member-history-genetics-observation",
+      "valueReference": {
+        "reference": "Observation/example-genetics-1"
+      }
+    }
+  ],
+  "status": "partial",
+  "patient": {
+    "reference": "http://vonk.furore.com/Patient/example"
+  },
+  "relationship": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v3/RoleCode",
+        "code": "NSIS",
+        "display": "natural sister"
+      }
+    ]
+  }
+}

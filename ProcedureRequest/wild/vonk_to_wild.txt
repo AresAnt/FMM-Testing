@@ -1,0 +1,59 @@
+{
+  "resourceType": "ProcedureRequest",
+  "id": "dac735e8a7cb40c499d10411b8f79b3e",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2017-09-11T04:06:50.088Z"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>status</b>: DRAFT      \n      </p><p><b>intent</b>: ORDER      \n      </p><p><b>code</b>: Test Object for Genomics Profiles         \n        <span style=\"background: LightGoldenRodYellow\">(Details : {http://hl7.org/fhir/dotnet-api-operation-outcome code '6005' = '6005', given as 'Test Object for Genomics Profiles'})</span></p><p><b>subject</b>:         \n        <a href=\"http://vonk.furore.com/Patient/example\">http://vonk.furore.com/Patient/example</a></p></div>"
+  },
+  "extension": [
+    {
+      "extension": [
+        {
+          "url": "code",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "display": "example genetic order code"
+              }
+            ]
+          }
+        },
+        {
+          "url": "geneticsObservation",
+          "valueReference": {
+            "reference": "Observation/f001"
+          }
+        },
+        {
+          "url": "specimen",
+          "valueReference": {
+            "reference": "Specimen/101"
+          }
+        },
+        {
+          "url": "status",
+          "valueCode": "unknown"
+        }
+      ],
+      "url": "http://hl7.org/fhir/StructureDefinition/procedurerequest-geneticsItem"
+    }
+  ],
+  "status": "draft",
+  "intent": "order",
+  "code": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/dotnet-api-operation-outcome",
+        "code": "6005",
+        "display": "Test Object for Genomics Profiles"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "http://vonk.furore.com/Patient/example"
+  }
+}

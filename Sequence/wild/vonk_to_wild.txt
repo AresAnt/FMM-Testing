@@ -1,0 +1,122 @@
+{
+  "resourceType": "Sequence",
+  "id": "bdc6323716984b4c86664acf4c193319",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2017-09-11T03:53:06.317Z"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>identifier</b>: 44552 (OFFICIAL)      \n      </p><p><b>type</b>: DNA      \n      </p><p><b>coordinateSystem</b>: 1      \n      </p><p><b>patient</b>:         \n        <a href=\"http://vonk.furore.com/Patient/example\">http://vonk.furore.com/Patient/example</a></p><p><b>specimen</b>:         \n        <a href=\"http://vonk.furore.com/Specimen/genetics-example1-somatic\">Molecular Specimen ID: MLD45-Z4-1234</a></p><p><b>device</b>:         \n        <a href=\"http://vonk.furore.com/\">12 lead EKG Device Metric</a></p><p><b>performer</b>:         \n        <a href=\"http://vonk.furore.com/Organization/f001\">Burgers University Medical Center</a></p><p><b>quantity</b>: 1      \n      </p><h3>ReferenceSeqs</h3><table class=\"grid\"><tr><td>-</td><td><b>Chromosome</b></td><td><b>GenomeBuild</b></td><td><b>Strand</b></td><td><b>WindowStart</b></td><td><b>WindowEnd</b></td></tr><tr><td>*</td><td>chromosome 2             \n            <span style=\"background: LightGoldenRodYellow\">(Details : {http://hl7.org/fhir/chromosome-human code '2' = 'chromosome 2', given as 'chromosome 2'})</span></td><td>GRCh38</td><td>1</td><td>1</td><td>8</td></tr></table><h3>Variants</h3><table class=\"grid\"><tr><td>-</td><td><b>Start</b></td><td><b>End</b></td><td><b>ObservedAllele</b></td><td><b>ReferenceAllele</b></td><td><b>Cigar</b></td><td><b>VariantPointer</b></td></tr><tr><td>*</td><td>673</td><td>677</td><td>ATCC</td><td>ACC</td><td>1M1D2M</td><td><a href=\"http://vonk.furore.com/Observation/graphic-example-3\">http://vonk.furore.com/Observation/graphic-example-3</a></td></tr></table><p><b>observedSeq</b>: ACATGGTAGC      \n      </p><h3>Qualities</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>StandardSequence</b></td><td><b>Start</b></td><td><b>End</b></td><td><b>Score</b></td><td><b>Method</b></td><td><b>TruthTP</b></td><td><b>QueryTP</b></td><td><b>TruthFN</b></td><td><b>QueryFP</b></td><td><b>GtFP</b></td><td><b>Precision</b></td><td><b>Recall</b></td><td><b>FScore</b></td></tr><tr><td>*</td><td>SNP</td><td>file-Bk50V4Q0qVb65P0v2VPbfYPZ             \n            <span style=\"background: LightGoldenRodYellow\">(Details : {https://precision.fda.gov/files/ code 'file-Bk50V4Q0qVb65P0v2VPbfYPZ' = 'file-Bk50V4Q0qVb65P0v2VPbfYPZ)</span></td><td>10453</td><td>101770080</td><td>3 points</td><td>Vcfeval + Hap.py Comparison             \n            <span style=\"background: LightGoldenRodYellow\">(Details : {https://precision.fda.gov/jobs/ code 'job-ByxYPx809jFVy21KJG74Jg3Y' = 'job-ByxYPx809jFVy21KJG74Jg3Y)</span></td><td>7749</td><td>7984</td><td>2554</td><td>10670</td><td>2186</td><td>0.42</td><td>0.75</td><td>0.51</td></tr></table><p><b>readCoverage</b>: 1      \n      </p><h3>Repositories</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Url</b></td><td><b>Name</b></td><td><b>DatasetId</b></td><td><b>VariantsetId</b></td><td><b>ReadsetId</b></td></tr><tr><td>*</td><td>OPENAPI</td><td><a href=\"http://grch37.rest.ensembl.org/ga4gh/variants/3:rs1333049?content-type=application/json\">http://grch37.rest.ensembl.org/ga4gh/variants/3:rs1333049?content-type=application/json</a></td><td>GA4GH API</td><td>rs123</td><td>3:rs1333049</td><td>rs123</td></tr></table><p><b>pointer</b>:         \n        <a href=\"http://vonk.furore.com/Sequence/graphic-example-2\">http://vonk.furore.com/Sequence/graphic-example-2</a></p></div>"
+  },
+  "identifier": [
+    {
+      "use": "official",
+      "system": "http://www.hosp.com/snp",
+      "value": "44552",
+      "period": {
+        "start": "2003-05-03"
+      }
+    }
+  ],
+  "type": "dna",
+  "coordinateSystem": 1,
+  "patient": {
+    "reference": "http://vonk.furore.com/Patient/example"
+  },
+  "specimen": {
+    "reference": "http://vonk.furore.com/Specimen/genetics-example1-somatic",
+    "display": "Molecular Specimen ID: MLD45-Z4-1234"
+  },
+  "device": {
+    "reference": "http://vonk.furore.com/",
+    "display": "12 lead EKG Device Metric"
+  },
+  "performer": {
+    "reference": "http://vonk.furore.com/Organization/f001",
+    "display": "Burgers University Medical Center"
+  },
+  "quantity": {
+    "value": 1
+  },
+  "referenceSeq": {
+    "chromosome": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/chromosome-human",
+          "code": "2",
+          "display": "chromosome 2"
+        }
+      ]
+    },
+    "genomeBuild": "GRCh38",
+    "strand": 1,
+    "windowStart": 1,
+    "windowEnd": 8
+  },
+  "variant": [
+    {
+      "start": 673,
+      "end": 677,
+      "observedAllele": "ATCC",
+      "referenceAllele": "ACC",
+      "cigar": "1M1D2M",
+      "variantPointer": {
+        "reference": "http://vonk.furore.com/Observation/graphic-example-3"
+      }
+    }
+  ],
+  "observedSeq": "ACATGGTAGC",
+  "quality": [
+    {
+      "type": "snp",
+      "standardSequence": {
+        "coding": [
+          {
+            "system": "https://precision.fda.gov/files/",
+            "code": "file-Bk50V4Q0qVb65P0v2VPbfYPZ"
+          }
+        ]
+      },
+      "start": 10453,
+      "end": 101770080,
+      "score": {
+        "value": 3,
+        "unit": "points"
+      },
+      "method": {
+        "coding": [
+          {
+            "system": "https://precision.fda.gov/jobs/",
+            "code": "job-ByxYPx809jFVy21KJG74Jg3Y"
+          }
+        ],
+        "text": "Vcfeval + Hap.py Comparison"
+      },
+      "truthTP": 7749,
+      "queryTP": 7984,
+      "truthFN": 2554,
+      "queryFP": 10670,
+      "gtFP": 2186,
+      "precision": 0.42,
+      "recall": 0.75,
+      "fScore": 0.51
+    }
+  ],
+  "readCoverage": 1,
+  "repository": [
+    {
+      "type": "openapi",
+      "url": "http://grch37.rest.ensembl.org/ga4gh/variants/3:rs1333049?content-type=application/json",
+      "name": "GA4GH API",
+      "datasetId": "rs123",
+      "variantsetId": "3:rs1333049",
+      "readsetId": "rs123"
+    }
+  ],
+  "pointer": [
+    {
+      "reference": "http://vonk.furore.com/Sequence/graphic-example-2"
+    }
+  ]
+}
